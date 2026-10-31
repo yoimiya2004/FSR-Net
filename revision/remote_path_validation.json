@@ -1,0 +1,27 @@
+[
+  {
+    "config": "train_Haze4K_A5_Full.yml",
+    "exit_code": 0,
+    "result": "{\n  \"data\": {\n    \"train\": {\n      \"paths\": [\n        \"/home/hexiaodong/data/去雾/Haze4K/train/haze\",\n        \"/home/hexiaodong/data/去雾/Haze4K/train/gt\"\n      ],\n      \"counts\": [\n        3000,\n        3000\n      ]\n    },\n    \"val\": {\n      \"paths\": [\n        \"/home/hexiaodong/data/去雾/Haze4K/test/haze\",\n        \"/home/hexiaodong/data/去雾/Haze4K/test/gt\"\n      ],\n      \"counts\": [\n        1000,\n        1000\n      ]\n    }\n  },\n  \"modules\": {\n    \"torch\": false,\n    \"torchvision\": false,\n    \"mamba_ssm\": false,\n    \"cv2\": false,\n    \"pyiqa\": false,\n    \"einops\": false,\n    \"timm\": false,\n    \"pytorch_wavelets\": false\n  },\n  \"errors\": []\n}\n"
+  },
+  {
+    "config": "train_NHHAZE_A5_Full.yml",
+    "exit_code": 0,
+    "result": "{\n  \"data\": {\n    \"train\": {\n      \"paths\": [\n        \"/home/hexiaodong/data/去雾/NH-HAZE/train/hazy\",\n        \"/home/hexiaodong/data/去雾/NH-HAZE/train/GT\"\n      ],\n      \"counts\": [\n        50,\n        50\n      ]\n    },\n    \"val\": {\n      \"paths\": [\n        \"/home/hexiaodong/data/去雾/NH-HAZE/test/hazy\",\n        \"/home/hexiaodong/data/去雾/NH-HAZE/test/GT\"\n      ],\n      \"counts\": [\n        5,\n        5\n      ]\n    }\n  },\n  \"modules\": {\n    \"torch\": false,\n    \"torchvision\": false,\n    \"mamba_ssm\": false,\n    \"cv2\": false,\n    \"pyiqa\": false,\n    \"einops\": false,\n    \"timm\": false,\n    \"pytorch_wavelets\": false\n  },\n  \"errors\": []\n}\n"
+  },
+  {
+    "config": "train_FSRNet_Legacy_RESIDE_6K.yml",
+    "exit_code": 0,
+    "result": "{\n  \"data\": {\n    \"train\": {\n      \"paths\": [\n        \"/home/hexiaodong/data/去雾/RESIDE-6K/train/hazy\",\n        \"/home/hexiaodong/data/去雾/RESIDE-6K/train/GT\"\n      ],\n      \"counts\": [\n        6000,\n        6000\n      ]\n    },\n    \"val\": {\n      \"paths\": [\n        \"/home/hexiaodong/data/去雾/RESIDE-6K/test/hazy\",\n        \"/home/hexiaodong/data/去雾/RESIDE-6K/test/GT\"\n      ],\n      \"counts\": [\n        1000,\n        1000\n      ]\n    }\n  },\n  \"modules\": {\n    \"torch\": false,\n    \"torchvision\": false,\n    \"mamba_ssm\": false,\n    \"cv2\": false,\n    \"pyiqa\": false,\n    \"einops\": false,\n    \"timm\": false,\n    \"pytorch_wavelets\": false\n  },\n  \"errors\": []\n}\n"
+  },
+  {
+    "config": "train_OHAZY_A5_Full.yml",
+    "exit_code": 1,
+    "result": "{\n  \"data\": {\n    \"train\": {\n      \"paths\": [\n        \"/home/hexiaodong/data/去雾/O-HAZY/train/hazy\",\n        \"/home/hexiaodong/data/去雾/O-HAZY/train/GT\"\n      ],\n      \"counts\": [\n        0,\n        0\n      ]\n    },\n    \"val\": {\n      \"paths\": [\n        \"/home/hexiaodong/data/去雾/O-HAZY/test/hazy\",\n        \"/home/hexiaodong/data/去雾/O-HAZY/test/GT\"\n      ],\n      \"counts\": [\n        0,\n        0\n      ]\n    }\n  },\n  \"modules\": {\n    \"torch\": false,\n    \"torchvision\": false,\n    \"mamba_ssm\": false,\n    \"cv2\": false,\n    \"pyiqa\": false,\n    \"einops\": false,\n    \"timm\": false,\n    \"pytorch_wavelets\": false\n  },\n  \"errors\": [\n    \"train: missing/empty dataset directory\",\n    \"val: missing/empty dataset directory\"\n  ]\n}\n"
+  },
+  {
+    "config": "train_FSRNet_Legacy_D.yml",
+    "exit_code": 1,
+    "result": "{\n  \"data\": {\n    \"train\": {\n      \"paths\": [\n        \"/home/wang307/SJ/WDMamba/train_data/Dense_HAZE/hazy\",\n        \"/home/wang307/SJ/WDMamba/train_data/Dense_HAZE/gt\"\n      ],\n      \"counts\": [\n        0,\n        0\n      ]\n    },\n    \"val\": {\n      \"paths\": [\n        \"/home/wang307/SJ/WDMamba/test_data/Dense_HAZE/hazy\",\n        \"/home/wang307/SJ/WDMamba/test_data/Dense_HAZE/gt\"\n      ],\n      \"counts\": [\n        0,\n        0\n      ]\n    }\n  },\n  \"modules\": {\n    \"torch\": false,\n    \"torchvision\": false,\n    \"mamba_ssm\": false,\n    \"cv2\": false,\n    \"pyiqa\": false,\n    \"einops\": false,\n    \"timm\": false,\n    \"pytorch_wavelets\": false\n  },\n  \"errors\": [\n    \"train: missing/empty dataset directory\",\n    \"val: missing/empty dataset directory\"\n  ]\n}\n"
+  }
+]

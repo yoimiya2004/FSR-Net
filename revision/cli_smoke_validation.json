@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "scope": "2 training updates plus resume to update 3; two test images used solely for runtime smoke test, not model selection",
+  "experiment": "FSRNet_environment_smoke_20261028"
+}

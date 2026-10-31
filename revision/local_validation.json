@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "torch": "2.4.1+cpu",
+  "tested": [
+    "all Python syntax",
+    "real SDFR forward/backward; finite gradients and nonzero mask gradient",
+    "SDFR strict save/load and identical output",
+    "mean L1 invariance to pixel repetition",
+    "real training optimize method with CPU test generator; legacy loss equivalence and separate logs",
+    "nonzero SSIM gradient on synthetic data",
+    "epoch budget accounts for drop_last"
+  ],
+  "limits": [
+    "No full Mamba GPU forward/backward: remote runtime dependencies missing",
+    "Synthetic SSIM gradient does not prove historical relative gradient strength",
+    "No new ablation/LPIPS benchmark results"
+  ],
+  "sdfr_params": 3107,
+  "synthetic_grad_norms": {
+    "l1": 0.012757792137563229,
+    "weighted_ssim": 0.003899691393598914
+  },
+  "loader_cases": [
+    {
+      "images": 3000,
+      "batch": 16,
+      "actual_batches": 187,
+      "old_estimate": 188,
+      "epochs": 2674
+    },
+    {
+      "images": 3000,
+      "batch": 28,
+      "actual_batches": 107,
+      "old_estimate": 108,
+      "epochs": 4673
+    },
+    {
+      "images": 50,
+      "batch": 2,
+      "actual_batches": 25,
+      "old_estimate": 25,
+      "epochs": 20000
+    },
+    {
+      "images": 40,
+      "batch": 1,
+      "actual_batches": 40,
+      "old_estimate": 40,
+      "epochs": 12500
+    }
+  ]
+}

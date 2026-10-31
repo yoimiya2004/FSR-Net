@@ -1,0 +1,37 @@
+{
+  "ACTIVE_REVIEW.json": {
+    "pointer": {
+      "run": "/home/hexiaodong/code/FSR-Net_revision_20261027/review_runs/GPU0_20261028_081839",
+      "pid": 44254,
+      "gpu": 0,
+      "scope": "reviewer audit then one full-control training; other ablations prepared only"
+    },
+    "latest_training_states": [
+      {
+        "path": "/home/hexiaodong/code/FSR-Net_revision_20261027/review_runs/GPU0_20261028_081839/source/experiments/FSRNet_review_full_20261028_081839/training_states/105000.state",
+        "bytes": 40210700
+      }
+    ]
+  },
+  "FAST_REVIEW_GPU1.json": {
+    "pointer": {
+      "run": "/home/hexiaodong/code/FSR-Net_revision_20261027/review_runs/CAPACITY_GPU1_20261028_165506",
+      "phase": "preflight",
+      "pid": 73709,
+      "status": "launched"
+    },
+    "latest_training_states": [
+      {
+        "path": "/home/hexiaodong/code/FSR-Net_revision_20261027/review_runs/CAPACITY_GPU1_20261028_165506/source/experiments/FSRNet_capacity_control/training_states/3000.state",
+        "bytes": 40151370
+      },
+      {
+        "path": "/home/hexiaodong/code/FSR-Net_revision_20261027/review_runs/CAPACITY_GPU1_20261028_165506/source/experiments/FSRNet_capacity_capacity/training_states/2000.state",
+        "bytes": 40383802
+      }
+    ]
+  },
+  "kernel": "[\u4e8c 10\u6708 27 15:38:52 2026] NVRM: loading NVIDIA UNIX x86_64 Kernel Module  570.133.07  Fri Mar 14 13:12:07 UTC 2025\n[\u4e09 10\u6708 28 17:38:46 2026] NVRM: GPU at PCI:0000:d5:00: GPU-1c04aa4a-accb-099d-17b9-b53d25baa4c5\n[\u4e09 10\u6708 28 17:38:46 2026] NVRM: Xid (PCI:0000:d5:00): 79, GPU has fallen off the bus.\n[\u4e09 10\u6708 28 17:38:46 2026] NVRM: GPU 0000:d5:00.0: GPU has fallen off the bus.\n[\u4e09 10\u6708 28 17:38:46 2026] NVRM: A GPU crash dump has been created. If possible, please run\n                             NVRM: nvidia-bug-report.sh as root to collect this data before\n                             NVRM: the NVIDIA kernel module is unloaded.\n[\u4e09 10\u6708 28 17:38:46 2026] NVRM: GPU at PCI:0000:73:00: GPU-25952665-3a72-52d5-547c-d96579fb0b73\n[\u4e09 10\u6708 28 17:38:46 2026] NVRM: Xid (PCI:0000:73:00): 154, GPU recovery action changed from 0x0 (None) to 0x2 (Node Reboot Required)\n[\u4e09 10\u6708 28 17:38:46 2026] NVRM: Xid (PCI:0000:d5:00): 154, GPU recovery action changed from 0x0 (None) to 0x2 (Node Reboot Required)",
+  "status": "blocked_by_GPU_bus_failure_reboot_required_no_reboot_authorized",
+  "time": 1793190689.911339
+}

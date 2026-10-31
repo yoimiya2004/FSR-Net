@@ -1,0 +1,77 @@
+{
+  "torch": "2.6.0+cu124",
+  "torchvision": "0.21.0+cu124",
+  "cuda": "12.4",
+  "gpus": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 3090",
+      "forward_backward": "passed",
+      "params": 4977027
+    },
+    {
+      "index": 1,
+      "name": "NVIDIA GeForce RTX 3090",
+      "forward_backward": "passed",
+      "params": 4977027
+    }
+  ],
+  "aliases": [
+    {
+      "old": "WaveMamba",
+      "new": "FSRNet",
+      "strict_keys": true,
+      "identical_output": true,
+      "params": 6534695
+    },
+    {
+      "old": "WaveMambaHaze4KAblation",
+      "new": "FSRNetAblation",
+      "strict_keys": true,
+      "identical_output": true,
+      "params": 4977027
+    }
+  ],
+  "controls": [
+    {
+      "control": {
+        "scan_mode": "fixed_h"
+      },
+      "forward_backward": "passed",
+      "params": 4977027
+    },
+    {
+      "control": {
+        "use_lci": false
+      },
+      "forward_backward": "passed",
+      "params": 3714563
+    },
+    {
+      "control": {
+        "mask_mode": "uniform"
+      },
+      "forward_backward": "passed",
+      "params": 4976999
+    },
+    {
+      "control": {
+        "stage1_type": "identity",
+        "stage2_type": "mask"
+      },
+      "forward_backward": "passed",
+      "params": 3107
+    }
+  ],
+  "real_image_train_step": {
+    "l_l1": 0.12755396962165833,
+    "l_ssim": 0.15722203254699707,
+    "l_ssim_weighted": 0.015722203999757767,
+    "l_pix": 0.1432761698961258,
+    "l_low": 0.2583376467227936,
+    "l_high": 0.0016611390747129917,
+    "l_total": 0.16912655532360077
+  },
+  "optimizer_save_restore_step": "passed",
+  "historical_checkpoint_strict_load": "/home/hexiaodong/code/LM-Net3/experiments/Haze4K_A5_Full/models/net_g_latest.pth"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "dataset": "Haze4K",
+    "experiment": "Haze4K_A5_Full",
+    "tag": "historical_psnr_best",
+    "weight": "/home/hexiaodong/code/LM-Net3/experiments/Haze4K_A5_Full/models/net_g_best_355000.pth",
+    "sha256": "2f97de819cee467061ce2c4a76b319a5562aba7ded96a635b62685b43a277d88",
+    "count": 1000,
+    "float_lpips": 0.020831034389557315,
+    "uint8_lpips": 0.020933543475344776,
+    "seconds": 58.59626841545105
+  },
+  {
+    "dataset": "Haze4K",
+    "experiment": "Haze4K_A5_Full",
+    "tag": "latest",
+    "weight": "/home/hexiaodong/code/LM-Net3/experiments/Haze4K_A5_Full/models/net_g_latest.pth",
+    "sha256": "39b5d313207cdff0add01721758bc2d79d69d53fbefc2c45d8b10d613c6d285b",
+    "count": 1000,
+    "float_lpips": 0.02055755303381011,
+    "uint8_lpips": 0.020655885621206835,
+    "seconds": 58.07782697677612
+  },
+  {
+    "dataset": "NH-HAZE",
+    "experiment": "NHHAZE_A5_Full",
+    "tag": "historical_psnr_best",
+    "weight": "/home/hexiaodong/code/LM-Net3/experiments/NHHAZE_A5_Full/models/net_g_best_175000.pth",
+    "sha256": "a96dc860a81b487645f5725422ef9eb58a698ec7bc78029072c9b45121e7e43b",
+    "count": 5,
+    "float_lpips": 0.3177086651325226,
+    "uint8_lpips": 0.31754266023635863,
+    "seconds": 1.5182864665985107
+  },
+  {
+    "dataset": "NH-HAZE",
+    "experiment": "NHHAZE_A5_Full",
+    "tag": "latest",
+    "weight": "/home/hexiaodong/code/LM-Net3/experiments/NHHAZE_A5_Full/models/net_g_latest.pth",
+    "sha256": "7c1cefb492100f863de785a02430d3624ea4f5ebcfaeeb429db7954b194e6f2e",
+    "count": 5,
+    "float_lpips": 0.320286363363266,
+    "uint8_lpips": 0.32014501094818115,
+    "seconds": 1.407973289489746
+  }
+]

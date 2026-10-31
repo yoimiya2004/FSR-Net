@@ -1,0 +1,62 @@
+[
+  {
+    "source": "options\\train_WDMamba_D.yml",
+    "canonical": "options/fsrnet/train_FSRNet_Legacy_D.yml",
+    "network": "FSRNet"
+  },
+  {
+    "source": "options\\train_WDMamba_Haze4K.yml",
+    "canonical": "options/fsrnet/train_FSRNet_Legacy_Haze4K.yml",
+    "network": "FSRNet"
+  },
+  {
+    "source": "options\\train_WDMamba_O.yml",
+    "canonical": "options/fsrnet/train_FSRNet_Legacy_O.yml",
+    "network": "FSRNet"
+  },
+  {
+    "source": "options\\train_WDMamba_RESIDE_6K.yml",
+    "canonical": "options/fsrnet/train_FSRNet_Legacy_RESIDE_6K.yml",
+    "network": "FSRNet"
+  },
+  {
+    "source": "options\\ablation_haze4k\\train_Haze4K_A1_Stage1.yml",
+    "canonical": "options/fsrnet/train_Haze4K_A1_Stage1.yml",
+    "network": "FSRNetAblation"
+  },
+  {
+    "source": "options\\ablation_haze4k\\train_Haze4K_A2_Stage2.yml",
+    "canonical": "options/fsrnet/train_Haze4K_A2_Stage2.yml",
+    "network": "FSRNetAblation"
+  },
+  {
+    "source": "options\\ablation_haze4k\\train_Haze4K_A3_WDMamba_OurDEN.yml",
+    "canonical": "options/fsrnet/train_Haze4K_A3_WDMamba_OurDEN.yml",
+    "network": "FSRNetAblation"
+  },
+  {
+    "source": "options\\ablation_haze4k\\train_Haze4K_A4_OurMamba_WDMambaStage2.yml",
+    "canonical": "options/fsrnet/train_Haze4K_A4_OurMamba_WDMambaStage2.yml",
+    "network": "FSRNetAblation"
+  },
+  {
+    "source": "options\\ablation_haze4k\\train_Haze4K_A5_Full.yml",
+    "canonical": "options/fsrnet/train_Haze4K_A5_Full.yml",
+    "network": "FSRNetAblation"
+  },
+  {
+    "source": "options\\ablation_haze4k\\train_Haze4K_A6_WDMambaStage1.yml",
+    "canonical": "options/fsrnet/train_Haze4K_A6_WDMambaStage1.yml",
+    "network": "FSRNetAblation"
+  },
+  {
+    "source": "options\\real_haze\\train_NHHAZE_A5_Full.yml",
+    "canonical": "options/fsrnet/train_NHHAZE_A5_Full.yml",
+    "network": "FSRNetAblation"
+  },
+  {
+    "source": "options\\real_haze\\train_OHAZY_A5_Full.yml",
+    "canonical": "options/fsrnet/train_OHAZY_A5_Full.yml",
+    "network": "FSRNetAblation"
+  }
+]
