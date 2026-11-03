@@ -25,6 +25,10 @@ The project was developed on Ubuntu with NVIDIA GPUs. A previously tested enviro
 
 `inference.py` is a legacy script: it constructs `WaveMamba`, expects a compatible checkpoint containing `params`, assumes dataset-specific ground-truth pairing, and sets GPU 0 in the script. It is not a general inference entry point for all architecture variants; verify the model and checkpoint compatibility before use. The current repository does not include pretrained weights.
 
+## Training results
+
+The FSR-Net training results are available via [Baidu Netdisk: FSR-Net_Results](https://pan.baidu.com/s/1EKZZ_ZpodAxar64uG6TTJg?pwd=iw5y). Extraction code: `iw5y`.
+
 ## Acknowledgments
 
 This project builds on [WDMamba](https://github.com/SunJ000/WDMamba), [BasicSR](https://github.com/XPixelGroup/BasicSR), and [Wave-Mamba](https://github.com/AlexZou14/Wave-Mamba). We thank their authors for making their work available.
