@@ -1,6 +1,6 @@
 # FSR-Net: A Coarse-to-Fine Image Dehazing Network with Frequency-Spatial Refinement
 
-This is the office implementation of FSR-Net: A Coarse-to-Fine Image Dehazing Network with Frequency-Spatial Refinement.
+This is the office implementation of **FSR-Net: A Coarse-to-Fine Image Dehazing Network with Frequency-Spatial Refinement**.
 
 Guangcheng Wang<sup>1</sup>, Xiaodong He<sup>1</sup>, Jifan Yang<sup>2</sup>, Ruifeng Gao<sup>1</sup>, Member, IEEE, Yipo Huang<sup>3</sup>, and Hancheng Zhu<sup>4</sup>, Member, IEEE
 
