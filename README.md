@@ -21,7 +21,6 @@ git clone https://github.com/yoimiya2004/FSR-Net.git
 cd FSR-Net
 conda create -n fsrnet python=3.10
 conda activate fsrnet
-# Install a PyTorch build compatible with your CUDA environment first.
 pip install -r requirements.txt
 pip install -e .
 ```
