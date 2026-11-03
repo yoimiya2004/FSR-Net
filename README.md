@@ -2,6 +2,8 @@
 
 This is the office implementation of FSR-Net: A Coarse-to-Fine Image Dehazing Network with Frequency-Spatial Refinement.
 
+Guangcheng Wang<sup>1</sup>, Xiaodong He<sup>1</sup>, Jifan Yang<sup>2</sup>, Ruifeng Gao<sup>1</sup>, Member, IEEE, Yipo Huang<sup>3</sup>, and Hancheng Zhu<sup>4</sup>, Member, IEEE
+
 ---
 
 > **Abstract:** *State space models (SSMs), especially Mamba, have shown strong potential in image restoration due to their linear complexity and long-range modeling capability. However, haze degradation exhibits different characteristics across frequency and spatial domains: large-scale veiling effects mainly lie in low-frequency components, while residual detail degradation after reconstruction is spatially non-uniform. To address this, we propose LDM-Net, a two-stage wavelet-domain dehazing network. In the first stage, the input hazy image is decomposed by discrete wavelet transform (DWT), and a Mamba-based Low-Frequency Restoration Network (LRN) restores the low-frequency component to remove global haze and recover coarse structures. The restored low-frequency component is then recombined with the original high-frequency sub-bands through inverse wavelet transform (IWT) to obtain an intermediate result. In the second stage, a lightweight Detail Enhancement Network predicts a spatial mask from the intermediate result and adaptively fuses local-detail and global-context restoration branches. Extensive experiments on synthetic and real-world datasets demonstrate that LDM-Net achieves competitive dehazing performance with favorable computational efficiency.*
