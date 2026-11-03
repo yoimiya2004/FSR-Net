@@ -35,7 +35,6 @@ The unified training script `train_fsrnet.sh` will be released after publication
 python inference.py -i /path/to/hazy -g /path/to/gt -w /path/to/weights.pth -o /path/to/output
 ```
 
-This legacy script requires a compatible WaveMamba checkpoint and dataset-specific image pairing.
 
 ## Training results
 
