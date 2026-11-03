@@ -14,16 +14,7 @@ The first stage applies a discrete wavelet transform to the hazy image. A Mamba-
 
 The second stage refines the coarse image with a lightweight detail enhancement network. A spatial mask guides the fusion of local-detail and global-context branches.
 
-## Project files
-
-- `basicsr/archs/`: model architectures and wavelet components.
-- `basicsr/utils/`: supporting image and model utilities.
-- `inference.py`: legacy inference entry point.
-- `basicsr/models/` and `basicsr/losses/`: model wrappers and losses.
-- `review_runs/`: snapshots of experimental model variants.
-- `requirements.txt` and `setup.py`: dependencies and package setup.
-
-Training scripts and experiment configurations are withheld while the paper is under review and are planned for release after publication. Model code and losses are retained. Datasets and trained weights are not included.
+Training scripts and experiment configurations will be released after publication. Datasets and trained weights are not included in this repository.
 
 ## Environment and inference
 
