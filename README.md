@@ -25,9 +25,17 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+## Train the model
+
+The unified training script `train_fsrnet.sh` will be released after publication.
+
 ## Inference
 
-`inference.py` is a legacy script: it constructs `WaveMamba`, expects a compatible checkpoint containing `params`, assumes dataset-specific ground-truth pairing, and sets GPU 0 in the script. It is not a general inference entry point for all architecture variants; verify the model and checkpoint compatibility before use. The current repository does not include pretrained weights.
+```bash
+python inference.py -i /path/to/hazy -g /path/to/gt -w /path/to/weights.pth -o /path/to/output
+```
+
+This legacy script requires a compatible WaveMamba checkpoint and dataset-specific image pairing.
 
 ## Training results
 
