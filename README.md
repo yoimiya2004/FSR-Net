@@ -10,8 +10,6 @@ Guangcheng Wang<sup>1</sup>, Xiaodong He<sup>1</sup>, Jifan Yang<sup>2</sup>, Ru
 
 ---
 
-Training scripts and experiment configurations will be released after publication. Datasets and trained weights are not included in this repository.
-
 ## Dependencies and Installation
 
 The project was developed on Ubuntu with NVIDIA GPUs. A previously tested environment used Python 3.10, PyTorch 2.6.0 with CUDA 12.4 and `mamba_ssm` 2.2.5. The Mamba and causal-convolution extensions require versions compatible with your GPU, CUDA, PyTorch and compiler.
